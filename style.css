@@ -11,7 +11,7 @@
     box-shadow: 5px 5px 10px #b6a9a9,
     -5px -5px 10px #ffffff;
 }
-#jawaban {
+.jawaban {
     border: 1px solid;
     display: flex;
     justify-content: center;
