@@ -1,0 +1,50 @@
+.container {
+    width: 25em;
+    height: 20em;
+    margin: 80px auto ;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #D8BFD8;
+    box-shadow: 5px 5px 10px #b6a9a9,
+    -5px -5px 10px #ffffff;
+}
+
+
+#masukan {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+    padding: 1em;
+    margin-right: 2em;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #4B0082,
+            inset -3px -3px 7px #BA55D3;
+}
+
+#submit {
+    margin: 15px 0 0 5px;
+    width: 0 auto;
+    height: 2.4em;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D8BFD8;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #4B0082;
+
+    box-shadow: 5px 5px 15px #1f0707,
+    -5px -5px 10px #d4aed2;
+    display: inline-block;
+}
+
+#submit:active {
+    box-shadow: inset 1px 1px 2px #babecc,
+    inset -1px -1px 2px #fff;
+}
