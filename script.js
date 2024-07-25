@@ -1,6 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', () => {
-    const acakNomor = Math.floor(Math.random() * 10) + 1;
+document.addEventListener('DOMContentLoaded', () => {               
+    const acakNomor = Math.floor(Math.random() * 10) + 1;           
     const form = document.getElementById('formlah');
     const masukan = document.getElementById('masukan');
     const submit = document.getElementById('submit');
